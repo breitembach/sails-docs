@@ -68,6 +68,8 @@ For a complete introduction to model attributes, including how to define and use
 A function that allows you to customize the way a model's records are serialized to JSON.
 
 ```
+put this customToJSON function after the attributes like:
+attributes:{...},
 customToJSON: function() { /*...*/ }
 ```
 
